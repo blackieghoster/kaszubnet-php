@@ -12,7 +12,7 @@
         	rel="icon" href="logo.png" type="image/x-icon"
 	>
 
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 <style>
 

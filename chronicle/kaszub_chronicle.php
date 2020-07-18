@@ -12,7 +12,7 @@ include '../lib/log_check.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
 		.back {

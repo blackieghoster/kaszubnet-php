@@ -13,12 +13,11 @@ include '../lib/character_data.php';
 	<meta charset="utf8 COLLATE utf8_polish_ci" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
-	<link rel="stylesheet" href="stylepostacie15.css">
-
+	<link rel="stylesheet" href="../css/characters.css">
 
 	<style>
-
 	</style>
+
 </head>
 
 <body>

@@ -2,7 +2,6 @@
 session_start();
 include '../lib/log_check.php';
 include '../lib/character_data.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -13,10 +12,9 @@ include '../lib/character_data.php';
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
-
 	</style>
 
 </head>

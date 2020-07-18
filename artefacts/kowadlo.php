@@ -11,7 +11,7 @@ include '../lib/log_check.php';
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
-	<link rel="stylesheet" href="../stylestrony7.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
 		.box1 {
@@ -30,7 +30,7 @@ include '../lib/log_check.php';
 	<div class="flex-container">
 		<div class="clearfix">
 			<div class="back">
-				<p><a href="../polog.php">KASZUBnet</a>><a href="artefakty.php">Artefakty</a>>Kowadło_ostatniej_akredytacji</p>
+				<p><a href="../polog.php">KASZUBnet</a>><a href="artefacts.php">Artefakty</a>>Kowadło_ostatniej_akredytacji</p>
 			</div>
 			<div class="box1">
 
