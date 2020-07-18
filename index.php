@@ -88,7 +88,7 @@ session_start();
 				<legend><p><b>Logowanie...</b></p></legend>
 					<form action="lib/logging_pdo.php" method="post">
 					Login: <br /> <input type="text" name="login" <?= isset($_SESSION['given_login']) ? 'value="' . $_SESSION['given_login'] . '"' : '' ?>/> <br />
-					Haslo: <br /> <input type="password" name="pass"/> <br />	
+					Hasło: <br /> <input type="password" name="pass"/> <br />	
 					<br>	
 					<input type="submit" value="Zaloguj się"/>
 
