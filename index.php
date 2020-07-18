@@ -105,6 +105,8 @@ session_start();
 			<br>
 		<div align="center">
 		<h3><b>!!!Uwaga!!! Wszystkie informacje zamieszczone na Kaszubnecie są In-game.</b></h3>
+		<p>test</p>
+		<p>test</p>
 		</div>
 
 </div>
