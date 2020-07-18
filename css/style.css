@@ -2,7 +2,7 @@ body {
   color: #30f294;
   font-family: "Share Tech Mono", monospace;
   background-color: black;
-  background-image: url("../photos/i_tlo3.png");
+  background-image: url("photos/tlo3.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center top;
@@ -30,8 +30,66 @@ body {
   margin-top: 70px;
 }
 
+.back {
+  float: left;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.box_menu {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid;
+}
+#menu {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+#menu_list {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.box_header {
+  float: left;
+  width: 60%;
+  padding: 0px;
+  margin: 0px;
+}
 #header {
   font-size: 60px;
+  text-align: center;
+}
+
+.box_right {
+  float: right;
+  width: 35%;
+  padding: 10px;
+  margin: 0px;
+  border: 1px solid;
+}
+.box_right_photo {
+  float: center;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid;
+}
+#box_right {
+  font-size: 18px;
+}
+.box_right_time {
+  float: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  border: 1px solid;
   text-align: center;
 }
 
@@ -235,176 +293,19 @@ a:visited {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-.boxlist {
+.slot_t {
   float: left;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 0px solid;
-}
-
-.box1 {
-  float: right;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
+  height: 40%;
   border: 1px solid;
-  background: blank;
+  padding-top: 30px;
+  padding-left: 25px;
+  background-image: url("../photos/small_t.png");
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 16px;
-  grid-row-gap: 20px;
-  padding: 22px;
-}
-
-.grid-item {
-  color: #37f79f;
-  border: 1px solid #37f79f;
-  height: 440px;
-  padding: 10px;
-  text-align: center;
-  font-size: 21px;
-}
-
-#header {
-  margin: 32px;
-}
-
-input {
-  width: 243px;
-  height: 325px;
-  font-size: 0px;
-}
-
-.talos {
-  background-image: url("../zdjecia_pos/talos_g.gif");
-}
-.strzygon {
-  background-image: url("../zdjecia_pos/strzygon.png");
-}
-.mur {
-  background-image: url("../zdjecia_pos/mur.png");
-}
-.szopen {
-  background-image: url("../zdjecia_pos/szopen.png");
-}
-.szambor {
-  background-image: url("../zdjecia_pos/szambor.png");
-}
-.chmura {
-  background-image: url("../zdjecia_pos/chmura.png");
-}
-.dimitri {
-  background-image: url("../zdjecia_pos/dimitri.png");
-}
-.wasyl {
-  background-image: url("../zdjecia_pos/wasyl.png");
-}
-.modliszka {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.negra {
-  background-image: url("../zdjecia_pos/negra.png");
-}
-.chmielu {
-  background-image: url("../zdjecia_pos/chmielu.png");
-}
-.elephant {
-  background-image: url("../zdjecia_pos/elephant.png");
-}
-.jerzy {
-  background-image: url("../zdjecia_pos/jerzy.png");
-}
-.ignis {
-  background-image: url("../zdjecia_pos/ignis.png");
-}
-.lucky {
-  background-image: url("../zdjecia_pos/lucky.png");
-}
-.sierzant {
-  background-image: url("../zdjecia_pos/sierzant.png");
-}
-.pastor {
-  background-image: url("../zdjecia_pos/pastor.png");
-}
-.struna {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.oko {
-  background-image: url("../zdjecia_pos/oko.png");
-}
-.guma {
-  background-image: url("../zdjecia_pos/guma.png");
-}
-.hex {
-  background-image: url("../zdjecia_pos/hex.png");
-}
-.mera {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-
-.pijo {
-  background-image: url("../zdjecia_pos/pijo.png");
-}
-.uli {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.hindus {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-
-.smuga {
-  background-image: url("../zdjecia_pos/smuga.png");
-}
-.hafi {
-  background-image: url("../zdjecia_pos/hafi.png");
-}
-.elwis {
-  background-image: url("../zdjecia_pos/elwis.png");
-}
-.szakal {
-  background-image: url("../zdjecia_pos/szakal.png");
-}
-.zombie {
-  background-image: url("../zdjecia_pos/zombie.png");
-}
-.wieza {
-  background-image: url("../zdjecia_pos/wieza.png");
-}
-.beret {
-  background-image: url("../zdjecia_pos/beret.png");
-}
-.kangur {
-  background-image: url("../zdjecia_pos/kangur.png");
-}
-.favaro {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.laima {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-
-.lapa {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.vladi {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.vladimir {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.pielgrzym {
-  background-image: url("../zdjecia_pos/pielgrzym.png");
-}
-.ban {
-  background-image: url("../zdjecia_pos/ban.png");
-}
-.rybak {
-  background-image: url("../zdjecia_pos/alter.png");
-}
-.alter {
-  background-image: url("../zdjecia_pos/alter.png");
+.error {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
 }

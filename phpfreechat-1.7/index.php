@@ -32,7 +32,7 @@ $chat = new phpFreeChat($params);
 	<link rel="stylesheet" title="classic" type="text/css" href="style/content.css" />
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
 		.box0 {

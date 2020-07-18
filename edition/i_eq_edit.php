@@ -16,12 +16,12 @@ require_once '../lib/character_data.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
 
 		body {
-			background-image: url("../i_tlo3.png");
+			background-image: url("../photos/i_tlo3.png");
 		}
 
 		.box1 {

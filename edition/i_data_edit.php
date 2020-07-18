@@ -17,14 +17,14 @@ require_once '../uploads/upload_char_photo.php';
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="../trumbowyg/dist/ui/trumbowyg.css">
-	<link rel="stylesheet" href="../stylestrony9.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<script type="text/javascript" src="js/dist/langs/pl.min.js"></script>
 	<style>
 
 
 		body {
-			background-image: url("../i_tlo3.png");
+			background-image: url("../photos/i_tlo3.png");
 		}
 
 		.boxlista {
