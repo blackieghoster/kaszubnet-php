@@ -88,7 +88,7 @@ $chat = new phpFreeChat($params);
 						<li><a style="font-size: 22px" href="#" onclick="pfc.sendRequest('/join Tricity');">Tricity</a></li>
 						<li><a style="font-size: 22px" href="#" onclick="pfc.sendRequest('/join Północ');">Północ</a></li>
 						<br>
-						<li><a style="font-size: 22px" href="zasady.php">Zasady korzsytania z węzła</a></li>
+						<li><a style="font-size: 22px" href="rules.php">Zasady korzystania z węzła</a></li>
 					</ul>
 				</div>
 

@@ -4,7 +4,7 @@ session_start();
 include '../lib/log_check.php';
 include '../lib/ch_data_edit.php';
 require_once '../lib/character_data.php';
-require_once '../uploads/upload_char_photo.php';
+// require_once '../uploads/upload_char_photo.php';
 ?>
 
 <!DOCTYPE HTML>

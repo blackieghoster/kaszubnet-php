@@ -27,7 +27,7 @@ include 'lib/user_data.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="icon" href="logo.png" type="image/x-icon">
 
-	<link rel="stylesheet" href="stylestrony9.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<style>
 		.hello {
@@ -361,7 +361,7 @@ include 'lib/user_data.php';
 
 			<div class="column">
 				<form method="post" action="lib/char_chosing.php">
-					<p>v Zaloguj się jako v<select name="characters">
+					<p>Zaloguj się jako: <select name="characters">
 							<?php
 							foreach ($char as $character) {
 								echo " 

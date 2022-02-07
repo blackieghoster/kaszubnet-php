@@ -14,7 +14,7 @@ include 'lib/character_data.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
 
-	<link rel="stylesheet" href="stylestrony9.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<style>
 	</style>
@@ -38,11 +38,11 @@ include 'lib/character_data.php';
 					<ul>
 						<li id="menu_list"><a href="faction/faction.php">Frakcja</a></li>
 						<li id="menu_list"><a href="chronicle/chronicle.php">Kronika</a></li>
-						<li id="menu_list"><a href="artefakty/artefakty.php">Artefakty frakcyjne</a></li>
-						<li id="menu_list"><a href="warehouse/warehouse.php">Magazyn (w budowie)</a></li>
+						<li id="menu_list"><a href="artefacts/artefacts.php">Artefakty frakcyjne</a></li>
+						<li id="menu_list"><a href="warehouse/warehouse.php">Magazyn</a></li>
 						<li id="menu_list"><a href="map.php">Mapa ekspansji</a></li>
 						<!--<li id="menu_list"><a href="tablica.php">Tablica Ogłoszeń (w budowie)</a></li> -->
-						<li id="menu_list"><a href="phpfreechat-1.7/index.php">Wezel_komunikacyjny</a></li>
+						<li id="menu_list"><a href="phpfreechat-1.7/chat_index.php">Wezel_komunikacyjny</a></li>
 					</ul>
 				</div>
 
@@ -62,8 +62,6 @@ include 'lib/character_data.php';
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
 	<div class="footer">
 		<h5>KASZUBnet ver.<?php echo $_SESSION['version']; ?></h5>
 	</div>

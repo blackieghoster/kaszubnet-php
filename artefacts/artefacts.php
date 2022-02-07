@@ -26,7 +26,7 @@ include '../lib/log_check.php';
 		<div class="clearfix">
 			<div class="box_header">
 				<div class="back">
-					<p><a href="../polog.php">KASZUBnet</a>>Artefakty_Frakcyjne</p>
+					<p><a href="../main_menu.php">KASZUBnet</a>>Artefakty_Frakcyjne</p>
 				</div>
 				<p id="header">
 					<div class="glitch" data-text="Artefakty Frakcyjne">Artefakty Frakcyjne</div>
