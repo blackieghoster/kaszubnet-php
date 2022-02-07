@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	include '../lib/log_check.php'
 ?>
 
@@ -34,7 +35,7 @@
 <div class="flex-container">
 	<div class="clearfix">
 		<div class="back">
-			<p><a href="../main_menu.php">KASZUBnet</a>><a href="index.php">Wezel_Komunikacyjny</a>>Zasady</p>
+			<p><a href="../main_menu.php">KASZUBnet</a>><a href="chat_index.php">Wezel_Komunikacyjny</a>>Zasady</p>
 			</div>
 			<div class="box1">
 

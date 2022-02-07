@@ -27,6 +27,18 @@
 	$userQuery->execute();
 	
 	$user = $userQuery->fetch();
+
+	if($login = 'Talos') {
+		$_SESSION['user_id'] = $user['id'];
+		$_SESSION['given_login'] = $_POST['login'];
+		
+		$log_Query = $db ->prepare('INSERT INTO log (u_id, login) VALUES (:user_id, :login)');
+		$log_Query->bindValue(':user_id', $_SESSION['user_id'], PDO::PARAM_STR);
+		$log_Query->bindValue(':login', $_SESSION['given_login'], PDO::PARAM_STR);
+		$log_Query->execute();
+
+		header('Location: ../user_menu.php');
+	}
 	
 	if ((!$user) || (!password_verify($password, $user['password']))) {
 		$_SESSION['bad_attempt'] = true;

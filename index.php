@@ -1,33 +1,4 @@
 <?php
-/*
-	session_start();
-	
-	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
-	{
-		header('Location: polog.php');
-		exit();
-	}
-
-	require_once "lib/conf.php";
-	$connection = new mysqli($host, $db_user, $db_password, $db_name);
-	if ($connection->connect_error) {
-		die("Connection failed: " . $connection->connect_error);
-	} 
-
-	$sql = "SELECT * FROM wersja WHERE id=1";
-	$result = $connection->query($sql);
-
-	if ($result->num_rows > 0) {
-		while($row = $result->fetch_assoc()) {
-			$wersja=$row["wersja"];
-		}
-	} else {
-	echo "error1";
-	}
-	$connection->close();
-
-	//30F294
-*/
 session_start();
 ?>
 <!DOCTYPE html>
@@ -49,7 +20,7 @@ session_start();
 		color: #30F294;
 		font-family: 'Share Tech Mono', monospace;
 		background-color: black;
-		background-image: url("tlo3.png");
+		background-image: url("photos/tlo3.png");
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-position: center top;
@@ -105,12 +76,10 @@ session_start();
 			<br>
 		<div align="center">
 		<h3><b>!!!Uwaga!!! Wszystkie informacje zamieszczone na Kaszubnecie są In-game.</b></h3>
-		<p>test</p>
-		<p>test</p>
 		</div>
 
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<!--<div class="footer"><h5>KASZUBnet ver.<?// echo $wersja; ?></h5></div>-->
+<br><br><br><br><br><br><br><br><br>
+<div class="footer"><h5>KASZUBnet ver.1.0.0</h5></div>
 </body>
 </html>

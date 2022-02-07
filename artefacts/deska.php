@@ -41,7 +41,7 @@ include '../lib/log_check.php';
 			<div class="box1">
 
 				<p id="header">"Miecz" Talosa aka Deska do prasowania</p>
-				<p align="right"><img src="../zdjecia/deska2.jpg"></p>
+				<p align="right"><img src="../photos/deska2.jpg"></p>
 				<p>Legenda głosi... Z resztą nie ma legendy... </p>
 				<p>to cholerstwo po prostu jest deską do prasowania!</p>
 				<p>"Nie, nie leczę żadnych kurwa kompleksów" ~ Talos</p>
